@@ -1,0 +1,62 @@
+#base-div{
+    padding: 2px;
+    /* height: 600px; */
+    width: 600px;
+    margin: 50px auto;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+#calci-heading{
+    margin: 5px;
+    padding: 10px;
+    color: azure;
+    background-color: black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#text-area{
+    height: 80px;
+    margin: 5px;
+    padding: 10px;
+    background-color: floralwhite;
+}
+#keypad{
+    margin: 5px;
+    /* padding: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#text-area{
+    font-size: 2.5rem;
+    text-align: right;
+    border-radius: 20px;
+}
+.num-key{
+    height: 78px;
+    width: 140px;
+    margin: 2px;
+    background-color: white;
+}
+.operation-key{
+    height: 78px;
+    width: 140px;
+    margin: 2px;
+    background-color: rgb(247, 64, 64);
+}
+button{
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+}
+
+
+/* individual buttons */
+#zero{
+    flex-grow: 2;
+
+}
